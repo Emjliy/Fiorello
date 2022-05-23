@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: aqua;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .logo img {
+  padding: 30px 80px;
+  width: 233px;
+  height: 30px;
+}
+
+.navbar .main-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar .main-navbar .main-navbar-items {
+  margin: 35px 20px;
+  background-color: pink;
+}
+
+.navbar .main-navbar .main-navbar-items ul {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  background-color: yellow;
+}
+
+.navbar .main-navbar .main-navbar-items > li {
+  background-color: red;
+  position: relative;
+  min-width: 280px;
+}
+
+.navbar .main-navbar .main-navbar-items .bk_shop-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+}
+
+.navbar .main-navbar-items:hover ul {
+  display: block;
+  -webkit-transition: .3sn;
+  transition: .3sn;
+}
+
+.navbar .main-navbar-items:hover li {
+  display: block;
+}
+
+.navbar .bk_shop-items:hover {
+  display: block;
+  position: absolute;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+/*# sourceMappingURL=main.css.map */
